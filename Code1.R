@@ -7,4 +7,4 @@ x <- seq(-10,10,0.1)
 y <- 1/(1+exp(-x))
 
 #Graficacion
-plot(x,y)
+plot(x,y,type='l',col='blue',main="Función Sigmoide")
